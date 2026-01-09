@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.body{
+    text-align: center;
+}
+.container{
+    max-width:500px;
+    margin:0 auto;
+    padding: 20px;
+    background: rgb(red, green, blue);
+    border-radius: 1rem;
+
+
+}
+.congratulations{
+    
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    padding: 20px;
+    height:60vmin;
+    width:100vmin;
+    align-items: center;
+    border-radius: 1rem;
+    background: yellowgreen;
+
+}
+.adjustingContainer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 70vh;
+    background-color:palevioletred ;
+
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin: auto;
+    background: blue;
+    border-radius: 1rem;
+}
+.box{
+
+    height: 18vmin;
+    width: 18vmin;
+    margin: auto;
+    font-size: 8vmin;
+    border-radius: 1rem;
+}
